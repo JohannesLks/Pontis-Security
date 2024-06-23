@@ -4,7 +4,7 @@
 
     <div class="mb-6">
       <p class="bg-gray-100 dark:bg-gray-800 border-l-4 border-primary dark:border-indigo-300 p-3 mb-4">
-        <strong>TechInnovate Solutions GmbH</strong><br />
+        <strong>Pontis IT-Consulting GmbH</strong><br />
         Sokratesplatz 1<br />
         24149 Kiel
       </p>
@@ -21,7 +21,7 @@
     <h2 class="text-2xl font-semibold text-primary dark:text-indigo-300 mb-2">Kontakt</h2>
     <p class="bg-gray-100 dark:bg-gray-800 border-l-4 border-primary dark:border-indigo-300 p-3 mb-4">
       <strong>Telefon:</strong> +49 172 12345678<br />
-      <strong>E-Mail:</strong> techinnovatesolutions@fh-kiel.com
+      <strong>E-Mail:</strong> web@pontis-it.com
     </p>
 
     <h2 class="text-2xl font-semibold text-primary dark:text-indigo-300 mb-2">Redaktionell verantwortlich</h2>

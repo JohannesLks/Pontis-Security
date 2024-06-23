@@ -322,7 +322,7 @@
           const response = await axios.post('/api/send-email', {
             to: email,
             subject: 'Invitation',
-            html: `<strong>You are invited!</strong><br>Date and Time: ${formattedDate} <br>We are looking forward to seeing you!<br>You can join the meeting <a href="https://example.com/meeting">here</a>.<br>Best regards, TechInnovate Solutions`,
+            html: `<strong>You are invited!</strong><br>Date and Time: ${formattedDate} <br>We are looking forward to seeing you!<br>You can join the meeting <a href="https://example.com/meeting">here</a>.<br>Best regards, Pontis IT-Consulting`,
           });
   
           if (response.data.error) {
@@ -368,7 +368,7 @@
             const response = await axios.post('/api/send-email', {
               to: ticketToDelete.email,
               subject: 'Absage zu Ihrer Bewerbung',
-              html: `<strong>Ihre Bewerbung wurde abgelehnt.</strong><br>Wir bedauern, Ihnen mitteilen zu müssen, dass Ihre Bewerbung abgelehnt wurde.<br>Best regards, TechInnovate Solutions`,
+              html: `<strong>Ihre Bewerbung wurde abgelehnt.</strong><br>Wir bedauern, Ihnen mitteilen zu müssen, dass Ihre Bewerbung abgelehnt wurde.<br>Best regards, Pontis IT-Consulting`,
             });
             if (response.data.error) {
               console.error('Error sending email:', response.data.error);
@@ -436,7 +436,7 @@
             const response = await axios.post('/api/send-email', {
               to: event.email,
               subject: 'Absage des Termins',
-              html: `<strong>Ihr Termin wurde abgesagt.</strong><br>Termin: ${formattedDate} <br>Wir bedauern, Ihnen mitteilen zu müssen, dass Ihr Termin abgesagt wurde.<br>Best regards, TechInnovate Solutions`,
+              html: `<strong>Ihr Termin wurde abgesagt.</strong><br>Termin: ${formattedDate} <br>Wir bedauern, Ihnen mitteilen zu müssen, dass Ihr Termin abgesagt wurde.<br>Best regards, Pontis IT-Consulting`,
             });
             if (response.data.error) {
               console.error('Error sending email:', response.data.error);

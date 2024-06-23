@@ -2,8 +2,8 @@
   <section id="home" class="bg-white dark:bg-gray-900 py-16">
     <div class="container mx-auto flex flex-col md:flex-row items-center justify-between">
       <div class="md:w-1/2 text-center md:text-left mb-8 md:mb-0">
-        <h2 class="text-5xl font-bold mb-4 text-gray-900 dark:text-gray-100">Willkommen bei<br><span class="text-primary dark:text-indigo-300">TechInnovate Solutions</span></h2>
-        <p class="my-7 text-gray-700 dark:text-gray-300">Schön, dass Sie uns kennenlernen wollen! TechInnovate Solutions ist mehr als nur ein Arbeitsplatz. Hier kommen kreative Köpfe zusammen, um außergewöhnliche Ideen Wirklichkeit werden zu lassen. Wenn Sie bereit sind, Ihre Karriere voranzutreiben und echte Herausforderungen anzunehmen, dann sind Sie hier genau richtig!</p>
+        <h2 class="text-5xl font-bold mb-4 text-gray-900 dark:text-gray-100">Willkommen bei<br><span class="text-primary dark:text-indigo-300">Pontis IT-Consulting</span></h2>
+        <p class="my-7 text-gray-700 dark:text-gray-300">Schön, dass Sie uns kennenlernen wollen! Pontis IT-Consulting ist mehr als nur ein Arbeitsplatz. Hier kommen kreative Köpfe zusammen, um außergewöhnliche Ideen Wirklichkeit werden zu lassen. Wenn Sie bereit sind, Ihre Karriere voranzutreiben und echte Herausforderungen anzunehmen, dann sind Sie hier genau richtig!</p>
         <div class="space-x-2">
           <nuxt-link to="/qualificationform" class="bg-primary hover:bg-secondary text-white font-semibold px-4 py-2 rounded-full inline-block">JETZT BEWERBEN!</nuxt-link>
         </div>
@@ -42,11 +42,11 @@
   <section id="aboutus" class="py-16 bg-gray-dark dark:bg-gray-800">
     <div class="container mx-auto flex flex-col md:flex-row items-center justify-between">
       <div class="md:w-1/2 mb-8 md:mb-0">
-        <img src="/Unternehmen1.png" alt="TechInnovate-Campus" class="w-full md:mx-auto md:max-w-md rounded-lg bg-gray-100 dark:bg-gray-700 shadow-lg" />
+        <img src="/Unternehmen1.png" alt="Pontis-Campus" class="w-full md:mx-auto md:max-w-md rounded-lg bg-gray-100 dark:bg-gray-700 shadow-lg" />
       </div>
       <div class="md:w-1/2">
         <h2 class="text-5xl font-bold mb-4 text-white">Unser <span class="text-primary dark:text-indigo-300">Versprechen</span></h2>
-        <p class="my-5 text-white dark:text-gray-300">Bei TechInnovate Solutions ist es unser Versprechen an Sie, nicht nur einen Arbeitsplatz, sondern eine Plattform für Wachstum und Erfüllung zu bieten. Hier sind fünf Gründe, warum Sie Teil unseres Teams werden sollten:</p>
+        <p class="my-5 text-white dark:text-gray-300">Bei Pontis IT-Consulting ist es unser Versprechen an Sie, nicht nur einen Arbeitsplatz, sondern eine Plattform für Wachstum und Erfüllung zu bieten. Hier sind fünf Gründe, warum Sie Teil unseres Teams werden sollten:</p>
         <ol class="mt-5 mb-10 list-outside">
           <li class="flex items-center mb-4">
               <strong class="bg-primary dark:bg-indigo-300 text-white rounded-full w-8 h-8 text-lg font-semibold flex items-center justify-center mr-3">1</strong>
@@ -78,7 +78,7 @@
     <div class="container mx-auto max-w-screen-xl px-4 testimonials">
       <div class="text-center mb-12 lg:mb-20">
         <h2 class="text-5xl font-bold mb-4 text-gray-900 dark:text-gray-100">Unsere <span class="text-primary dark:text-indigo-300">Partner</span> in Innovation</h2>
-        <p class="my-7 text-gray-700 dark:text-gray-300">Bei TechInnovate Solutions schaffen wir Lösungen, die Branchen prägen</p>
+        <p class="my-7 text-gray-700 dark:text-gray-300">Bei Pontis IT-Consulting schaffen wir Lösungen, die Branchen prägen</p>
       </div>
     </div> 
     <swiper
@@ -123,13 +123,13 @@
           <img class="object-cover object-center w-full mb-8 rounded-xl" src="/thomas.webp" alt="Mitarbeiter Thomas">
           <h2 class="mb-8 text-xs font-semibold tracking-widest text-primary dark:text-indigo-300 uppercase">Thomas Hummels</h2>
           <h1 class="mx-auto mb-8 text-2xl font-semibold leading-none tracking-tighter text-gray-900 dark:text-gray-100 lg:text-3xl">IT-Admin</h1>
-          <p class="mx-auto text-base font-medium leading-relaxed text-gray-700 dark:text-gray-300">"Bei TechInnovate ist jeder Tag eine Gelegenheit, zu lernen und zu wachsen. Hier wird Kreativität großgeschrieben, und das macht unsere Arbeit so spannend."</p>
+          <p class="mx-auto text-base font-medium leading-relaxed text-gray-700 dark:text-gray-300">"Bei Pontis ist jeder Tag eine Gelegenheit, zu lernen und zu wachsen. Hier wird Kreativität großgeschrieben, und das macht unsere Arbeit so spannend."</p>
         </div>
         <div class="p-6 bg-gray-100 dark:bg-gray-800 rounded-lg shadow-lg">
           <img class="object-cover object-center w-full mb-8 rounded-xl" src="/isi.webp" alt="Mitarbeiterin Isi">
           <h2 class="mb-8 text-xs font-semibold tracking-widest text-primary dark:text-indigo-300 uppercase">Isi Glück</h2>
           <h1 class="mx-auto mb-8 text-2xl font-semibold leading-none tracking-tighter text-gray-900 dark:text-gray-100 lg:text-3xl">Projektleiterin</h1>
-          <p class="mx-auto text-base font-medium leading-relaxed text-gray-700 dark:text-gray-300">"Von dem Moment an, als ich bei TechInnovate angefangen habe, wurde ich ermutigt, meine Ideen einzubringen und zu verwirklichen. Diese Art von Umfeld ist selten und wertvoll."</p>
+          <p class="mx-auto text-base font-medium leading-relaxed text-gray-700 dark:text-gray-300">"Von dem Moment an, als ich bei Pontis angefangen habe, wurde ich ermutigt, meine Ideen einzubringen und zu verwirklichen. Diese Art von Umfeld ist selten und wertvoll."</p>
         </div>
         <div class="p-6 bg-gray-100 dark:bg-gray-800 rounded-lg shadow-lg">
           <img class="object-cover object-center w-full mb-8 rounded-xl" src="/mats.webp" alt="Mitarbeiter Mats">
