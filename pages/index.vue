@@ -113,33 +113,26 @@
   </section>
 
   <section class="bg-white dark:bg-gray-900 py-16">
-    <div class="text-center mb-12 lg:mb-20">
-      <h2 class="text-5xl font-bold mb-4 text-gray-900 dark:text-gray-100">Entdecke <span class="text-primary dark:text-indigo-300">unser</span> Team</h2>
-      <p class="my-7 text-gray-700 dark:text-gray-300">Hinter jedem großen Projekt steht ein noch größeres Team</p>
-    </div>
-    <div class="relative items-center w-full px-5 py-12 mx-auto md:px-12 lg:px-24 max-w-7xl">
-      <div class="grid w-full grid-cols-1 gap-6 mx-auto lg:grid-cols-3">
-        <div class="p-6 bg-gray-100 dark:bg-gray-800 rounded-lg shadow-lg">
-          <img class="object-cover object-center w-full mb-8 rounded-xl" src="/thomas.webp" alt="Mitarbeiter Thomas">
-          <h2 class="mb-8 text-xs font-semibold tracking-widest text-primary dark:text-indigo-300 uppercase">Thomas Hummels</h2>
-          <h1 class="mx-auto mb-8 text-2xl font-semibold leading-none tracking-tighter text-gray-900 dark:text-gray-100 lg:text-3xl">IT-Admin</h1>
-          <p class="mx-auto text-base font-medium leading-relaxed text-gray-700 dark:text-gray-300">"Bei Pontis ist jeder Tag eine Gelegenheit, zu lernen und zu wachsen. Hier wird Kreativität großgeschrieben, und das macht unsere Arbeit so spannend."</p>
-        </div>
-        <div class="p-6 bg-gray-100 dark:bg-gray-800 rounded-lg shadow-lg">
-          <img class="object-cover object-center w-full mb-8 rounded-xl" src="/isi.webp" alt="Mitarbeiterin Isi">
-          <h2 class="mb-8 text-xs font-semibold tracking-widest text-primary dark:text-indigo-300 uppercase">Isi Glück</h2>
-          <h1 class="mx-auto mb-8 text-2xl font-semibold leading-none tracking-tighter text-gray-900 dark:text-gray-100 lg:text-3xl">Projektleiterin</h1>
-          <p class="mx-auto text-base font-medium leading-relaxed text-gray-700 dark:text-gray-300">"Von dem Moment an, als ich bei Pontis angefangen habe, wurde ich ermutigt, meine Ideen einzubringen und zu verwirklichen. Diese Art von Umfeld ist selten und wertvoll."</p>
-        </div>
-        <div class="p-6 bg-gray-100 dark:bg-gray-800 rounded-lg shadow-lg">
-          <img class="object-cover object-center w-full mb-8 rounded-xl" src="/mats.webp" alt="Mitarbeiter Mats">
-          <h2 class="mb-8 text-xs font-semibold tracking-widest text-primary dark:text-indigo-300 uppercase">Mats Müller</h2>
-          <h1 class="mx-auto mb-8 text-2xl font-semibold leading-none tracking-tighter text-gray-900 dark:text-gray-100 lg:text-3xl">Developer</h1>
-          <p class="mx-auto text-base font-medium leading-relaxed text-gray-700 dark:text-gray-300">"Was mich hier hält, ist das unglaubliche Teamgefühl und die Unterstützung, die wir alle bekommen. Es fühlt sich wirklich an, als könnten wir gemeinsam Berge versetzen."</p>
-        </div>
+  <div class="text-center mb-12 lg:mb-20">
+    <h2 class="text-5xl font-bold mb-4 text-gray-900 dark:text-gray-100">über <span class="text-primary dark:text-indigo-300">mich</span></h2>
+    <p class="my-7 text-gray-700 dark:text-gray-300">Lernen Sie mich kennen</p>
+  </div>
+  <div class="relative w-full px-5 py-12 mx-auto md:px-12 lg:px-24 max-w-7xl">
+    <div class="grid w-full gap-6 mx-auto lg:grid-cols-3">
+      <div></div> <!-- Empty div for the first column -->
+      <div class="p-6 bg-gray-100 dark:bg-gray-800 rounded-lg shadow-lg">
+        <img class="object-cover object-center w-full mb-8 rounded-xl" src="/johannes.jpeg" alt="Mitarbeiter Johannes">
+        <h2 class="mb-8 text-xs font-semibold tracking-widest text-primary dark:text-indigo-300 uppercase">Lukas Johannes Möller</h2>
+        <h1 class="mx-auto mb-8 text-2xl font-semibold leading-none tracking-tighter text-gray-900 dark:text-gray-100 lg:text-3xl">Gründer</h1>
+        <p class="mx-auto text-base font-medium leading-relaxed text-gray-700 dark:text-gray-300">"Für Cybersecurity schlägt mein Herz, Ihr Unternehmen sicherer zu machen ist meine Mission."</p>
       </div>
+      <div></div> <!-- Empty div for the third column -->
     </div>
-  </section>
+  </div>
+</section>
+
+
+
 
   <section id="subscribe" class="bg-primary dark:bg-indigo-700 py-4">
     <div class="mx-auto max-w-screen-2xl px-4 md:px-8">

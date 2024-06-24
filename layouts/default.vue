@@ -4,7 +4,7 @@
       <header class="bg-gray-900 sticky top-0 z-50">
         <div class="container mx-auto flex justify-between items-center py-4">
           <div class="flex items-center">
-            <nuxt-link to="/"><img src="@/public/Bild1-removebg-preview.png" alt="Pontis IT-Consulting Logo" class="h-14 w-auto mr-4"></nuxt-link>
+            <nuxt-link to="/"><img src="@/public/white.svg" alt="Pontis IT-Consulting Logo" class="h-14 w-auto mr-4"></nuxt-link>
           </div>
           <div class="flex md:hidden z-50">
             <button id="hamburger" class="text-white focus:outline-none" @click="toggleMenu" v-show="!isMenuVisible">
@@ -103,7 +103,7 @@ Software: https://cruip.com/implementing-tailwind-css-dark-mode-toggle-with-no-f
         <slot />
       </div>
       <footer class="py-10 bg-gray-100 dark:bg-gray-900 text-black dark:text-white">
-        <img src="@/public/Bild1-removebg-preview.png" alt="Logo" class="h-14 w-auto mx-auto mb-5">
+        <img src="@/public/white.svg" alt="Logo" class="h-14 w-auto mx-auto mb-5">
         <span class="block text-center text-gray-600 dark:text-gray-400 font-semibold">© 2024 Pontis IT-Consulting. Alle Rechte vorbehalten.</span>
         <ul class="flex justify-center mt-10 space-x-8">
           <li><a href="https://instagram.com" target="_blank"><img src="@/public/instagram.png" alt="Instagram" class="h-10 w-10 hover:drop-shadow-md"></a></li>

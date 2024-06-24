@@ -5,7 +5,7 @@
     <h2 class="text-2xl text-primary dark:text-indigo-300 text-center mb-4 font-bold">Bewerbungsformular für Systemadministrator*in</h2>
     <!-- Logo -->
     <div class="flex justify-center mb-4">
-      <img src="/Bild1-removebg-preview.png" alt="TechInnovate Solutions Logo" class="w-32 h-auto" />
+      <img src="/white.svg" alt="Pontis IT-Consulting Logo" class="w-32 h-auto" />
     </div>
     <!-- Navigation zwischen den Formularabschnitten -->
     <div class="flex justify-around mb-4">
@@ -137,6 +137,8 @@ export default {
       formErrorMessage: "",
     };
   },
+
+
   methods: {
     // Setzt den aktiven Abschnitt des Formulars
     setActiveStage(stage) {
@@ -245,5 +247,17 @@ export default {
 .form-content {
   transition: opacity 0.3s ease-in-out;
 }
+.dark img.dark-mode {
+      display: block;
+    }
+    .dark img.light-mode {
+      display: none;
+    }
+    :not(.dark) img.dark-mode {
+      display: none;
+    }
+    :not(.dark) img.light-mode {
+      display: block;
+    }
 </style>
 
