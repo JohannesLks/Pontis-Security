@@ -54,7 +54,8 @@
   </template>
   
   <script>
-  import { supabase } from '@/supabase';
+  import axios from 'axios';
+  
   export default {
     name: "ContactForm",
     data() {
@@ -89,15 +90,13 @@
         this.formHasErrors = false;
   
         try {
-          const { error } = await supabase
-            .from('kontakt')
-            .insert([this.form]);
+          const response = await axios.post('https://your-backend.com/send-email', this.form);
   
-          if (error) {
-            console.error("Error details:", error);
-            this.formErrorMessage = error.message;
-          } else {
+          if (response.data.success) {
+            this.formSuccessMessage = "Ihre Nachricht wurde erfolgreich gesendet!";
             this.$router.push('/thank-you');
+          } else {
+            this.formErrorMessage = "Es gab ein Problem beim Senden Ihrer Nachricht.";
           }
         } catch (error) {
           console.error("Fehler beim Senden des Formulars:", error);
@@ -107,4 +106,5 @@
     }
   };
   </script>
+  
   

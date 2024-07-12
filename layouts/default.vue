@@ -17,7 +17,6 @@
             <ul class="flex justify-center space-x-4 text-white">
               <li><nuxt-link to="/" class="hover:text-secondary font-bold dark:text-white">Home</nuxt-link></li>
               <li><nuxt-link to="/contactform" class="hover:text-secondary font-bold dark:text-white">Kontakt</nuxt-link></li>
-              <li><nuxt-link to="/qualificationform" class="hover:text-secondary font-bold dark:text-white">Karriere</nuxt-link></li>
               <li><nuxt-link to="/impressum" class="hover:text-secondary font-bold dark:text-white">Impressum</nuxt-link></li>
               <li v-if="isLoggedIn"><nuxt-link to="/backend" class="hover:text-secondary font-bold dark:text-white">Backend</nuxt-link></li>
             </ul>
@@ -49,8 +48,6 @@ Software: https://cruip.com/implementing-tailwind-css-dark-mode-toggle-with-no-f
                 <span class="sr-only">Switch to light / dark version</span>
               </label>
             </div>
-            <button v-if="isLoggedIn" @click="logout" class="bg-primary hover:bg-secondary text-white font-semibold px-4 py-2 rounded-full inline-block">Logout</button>
-            <nuxt-link v-else to="/login" class="bg-primary hover:bg-secondary text-white font-semibold px-4 py-2 rounded-full inline-block">Login</nuxt-link>
           </div>
         </div>
       </header>
@@ -64,7 +61,6 @@ Software: https://cruip.com/implementing-tailwind-css-dark-mode-toggle-with-no-f
         <ul class="w-full text-center dark:text-white">
           <li class="border-b border-gray-300 dark:border-gray-600 py-4"><nuxt-link to="/" @click.native="closeMenu" class="hover:text-secondary font-bold dark:text-white">Home</nuxt-link></li>
           <li class="border-b border-gray-300 dark:border-gray-600 py-4"><nuxt-link to="/contactform" @click.native="closeMenu" class="hover:text-secondary font-bold dark:text-white">Kontakt</nuxt-link></li>
-          <li class="border-b border-gray-300 dark:border-gray-600 py-4"><nuxt-link to="/qualificationform" @click.native="closeMenu" class="hover:text-secondary font-bold dark:text-white">Karriere</nuxt-link></li>
           <li class="border-b border-gray-300 dark:border-gray-600 py-4"><nuxt-link to="/impressum" @click.native="closeMenu" class="hover:text-secondary font-bold dark:text-white">Impressum</nuxt-link></li>
           <li v-if="isLoggedIn" class="border-b border-gray-300 dark:border-gray-600 py-4"><nuxt-link to="/backend" @click.native="closeMenu" class="hover:text-secondary font-bold dark:text-white">Backend</nuxt-link></li>
         </ul>
@@ -95,8 +91,6 @@ Software: https://cruip.com/implementing-tailwind-css-dark-mode-toggle-with-no-f
               <span class="sr-only">Switch to light / dark version</span>
             </label>
           </div>
-          <button v-if="isLoggedIn" @click="logout" @click.native="closeMenu" class="bg-primary hover:bg-secondary text-white font-semibold px-4 py-2 rounded-full flex items-center justify-center min-w-[110px]">Logout</button>
-          <nuxt-link v-else to="/login" @click.native="closeMenu" class="bg-primary hover:bg-secondary text-white font-semibold px-4 py-2 rounded-full flex items-center justify-center min-w-[110px]">Login</nuxt-link>
         </div>
       </nav>
       <div class="content-wrapper bg-gray-100 dark:bg-gray-900 text-black dark:text-white transition-colors duration-300">
@@ -118,7 +112,6 @@ Software: https://cruip.com/implementing-tailwind-css-dark-mode-toggle-with-no-f
 </template>
 
 <script>
-import { supabase } from '@/supabase'
 
 export default {
   data() {
