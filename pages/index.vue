@@ -81,18 +81,21 @@
   </section>
 
   <section id="certifications" class="bg-white dark:bg-gray-900 py-16">
-        <div class="container mx-auto">
-          <h2 class="text-center text-3xl font-bold text-gray-900 dark:text-white mb-6">Meine Zertifizierungen</h2>
-          <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-4">
-            <img src="/cert1.png" alt="Zertifikat 1" class="h-24 w-auto mx-auto">
-            <img src="/cert2.png" alt="Zertifikat 1" class="h-24 w-auto mx-auto">
-            <img src="/cert3.png" alt="Zertifikat 1" class="h-24 w-auto mx-auto">
-            <img src="/cert4.png" alt="Zertifikat 1" class="h-24 w-auto mx-auto">
-            <img src="/cert5.png" alt="Zertifikat 1" class="h-24 w-auto mx-auto">
-            <!-- Fügen Sie weitere Bilder hinzu, falls nötig -->
-          </div>
-        </div>
-      </section>
+  <div class="container mx-auto px-4">
+    <h2 class="text-center text-3xl font-bold text-gray-900 dark:text-white mb-6">Meine Zertifizierungen</h2>
+    <div class="flex flex-wrap justify-center items-center gap-6">
+      <img src="/cert1.png" alt="Zertifikat 1" class="h-32 w-auto">
+      <img src="/cert2.png" alt="Zertifikat 2" class="h-32 w-auto">
+      <img src="/cert3.png" alt="Zertifikat 3" class="h-32 w-auto">
+      <img src="/cert4.png" alt="Zertifikat 4" class="h-32 w-auto">
+      <img src="/cert5.png" alt="Zertifikat 5" class="h-32 w-auto">
+    </div>
+  </div>
+</section>
+
+
+
+
 
 </template>
 
@@ -135,8 +138,8 @@ export default {
 }
 
 .swiper-slide img {
-  display:block;
-  width:100%;
+  display: block;
+  width: 100%;
 }
 
 @media screen and (max-width: 890px) {
@@ -145,4 +148,8 @@ export default {
     height: 300px;
   }
 }
+
+
 </style>
+
+
