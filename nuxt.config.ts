@@ -6,8 +6,20 @@ export default {
   modules: [
     '@nuxtjs/supabase',
     '@nuxtjs/tailwindcss',
+    '@nuxtjs/axios',
+    '@nuxtjs/proxy',
     '@vue-email/nuxt'
   ],
+  axios: {
+    proxy: true
+  },
+  proxy: {
+    '/api/': {
+      target: 'https://api.resend.com',
+      pathRewrite: { '^/api/': '' },
+      changeOrigin: true
+    }
+  },
   supabase: {
     redirect: false,
     url: 'https://xdqwolnmgphskookqgdp.supabase.co',

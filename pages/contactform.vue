@@ -90,18 +90,11 @@ export default {
       this.formHasErrors = false;
 
       try {
-        const response = await axios.post('https://api.resend.com/emails', {
-          from: 'pontis@fh-kiel.com',
-          to: 'web@pontis-it.com',
+        const response = await axios.post('/api/sendEmail', {
+          name: this.form.name,
+          email: this.form.email,
           subject: this.form.subject,
-          html: `<p>Name: ${this.form.name}</p>
-                 <p>Email: ${this.form.email}</p>
-                 <p>Message: ${this.form.message}</p>`
-        }, {
-          headers: {
-            'Authorization': `Bearer ${process.env.VUE_APP_RESEND_API_KEY}`,
-            'Content-Type': 'application/json'
-          }
+          message: this.form.message
         });
 
         if (response.data.success) {
