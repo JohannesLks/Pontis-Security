@@ -62,20 +62,24 @@
 
   <!-- Über mich Abschnitt -->
   <section class="bg-white dark:bg-gray-900 py-16">
-    <div class="text-center mb-12 lg:mb-20">
-      <h2 class="text-5xl font-bold mb-4 text-gray-900 dark:text-gray-100">über <span class="text-primary dark:text-indigo-300">mich</span></h2>
-      <p class="my-7 text-gray-700 dark:text-gray-300">Lernen Sie mich kennen</p>
+    <div class="text-center mb-12 lg:mb-20 px-4">
+      <h2 class="text-4xl lg:text-5xl font-bold mb-4 text-gray-900 dark:text-gray-100">über <span class="text-primary dark:text-indigo-300">mich</span></h2>
+      <p class="my-7 text-gray-700 dark:text-gray-300 max-w-4xl mx-auto">
+        Willkommen bei Pontis IT Consulting! Ich bin Lukas Johannes Möller, Gründer und Geschäftsführer. Seit meiner Jugend fasziniert mich die Cybersicherheit, und diese Leidenschaft treibt mich an, ständig neues Wissen zu erwerben und meine Fähigkeiten zu verfeinern. Als begeisterter Teilnehmer an Capture the Flag (CTF) Wettbewerben liebe ich die Herausforderung, komplexe Sicherheitsprobleme zu lösen.
+        <br /><br />
+        Mit zahlreichen Zertifizierungen in IT-Sicherheit und praktischer Erfahrung setze ich mein Wissen ein, um Ihre digitale Welt sicherer zu machen. Darüber hinaus bin ich ein Allrounder und genieße es, sowohl in den Bereichen Programmierung als auch Administration tätig zu sein. Bei Pontis IT Consulting biete ich umfassende Beratungsdienste an, die speziell auf Ihre Bedürfnisse zugeschnitten sind. Lassen Sie uns gemeinsam an einer sicheren digitalen Zukunft arbeiten.
+      </p>
     </div>
     <div class="relative w-full px-5 py-12 mx-auto md:px-12 lg:px-24 max-w-7xl">
       <div class="grid w-full gap-6 mx-auto lg:grid-cols-3">
-        <div></div> <!-- Empty div for the first column -->
+        <div></div>
         <div class="p-6 bg-gray-100 dark:bg-gray-800 rounded-lg shadow-lg">
           <img class="object-cover object-center w-full mb-8 rounded-xl" src="/johannes.jpeg" alt="Mitarbeiter Johannes">
-          <h2 class="mb-8 text-xs font-semibold tracking-widest text-primary dark:text-indigo-300 uppercase">Lukas Johannes Möller</h2>
-          <h1 class="mx-auto mb-8 text-2xl font-semibold leading-none tracking-tighter text-gray-900 dark:text-gray-100 lg:text-3xl">Gründer</h1>
-          <p class="mx-auto text-base font-medium leading-relaxed text-gray-700 dark:text-gray-300">"Für Cybersecurity schlägt mein Herz, Ihr Unternehmen sicherer zu machen ist meine Mission."</p>
+          <h2 class="mb-2 text-xs font-semibold tracking-widest text-primary dark:text-indigo-300 uppercase">Lukas Johannes Möller</h2>
+          <h1 class="mb-4 text-2xl lg:text-3xl font-semibold leading-none tracking-tighter text-gray-900 dark:text-gray-100">Gründer</h1>
+          <p class="text-base font-medium leading-relaxed text-gray-700 dark:text-gray-300">"Für Cybersecurity schlägt mein Herz, Ihr Unternehmen sicherer zu machen ist meine Mission."</p>
         </div>
-        <div></div> <!-- Empty div for the third column -->
+        <div></div>
       </div>
     </div>
   </section>
