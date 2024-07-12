@@ -12,7 +12,7 @@
           </div>
           <div class="lg:w-1/2 px-6 mt-4 lg:mt-0">
             <h2 class="font-bold text-gray-dark dark:text-gray-100">EMAIL</h2>
-            <a href="mailto:kontakt@pontis-it.com" class="text-primary dark:text-indigo-300 leading-relaxed">web@pontis-it.com</a>
+            <a href="mailto:web@pontis-it.com" class="text-primary dark:text-indigo-300 leading-relaxed">web@pontis-it.com</a>
             <h2 class="font-bold text-gray-dark dark:text-gray-100 mt-4">PHONE</h2>
             <a href="tel:+4917212345678" class="leading-relaxed text-gray-700 dark:text-gray-300">+49 174 2719685</a>
           </div>
