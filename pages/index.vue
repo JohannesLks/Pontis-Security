@@ -5,7 +5,7 @@
         <h2 class="text-5xl font-bold mb-4 text-gray-900 dark:text-gray-100">Willkommen bei<br><span class="text-primary dark:text-indigo-300">Pontis IT-Consulting</span></h2>
         <p class="my-7 text-gray-700 dark:text-gray-300">Willkommen bei Ihrem IT-Experten! Ich biete umfassende Dienstleistungen im Bereich Pentesting, Administration und IT-Beratung – professionell, zuverlässig und individuell.</p>
         <div class="space-x-2">
-          <nuxt-link to="contactform" class="bg-primary hover:bg-secondary text-white font-semibold px-4 py-2 rounded-full inline-block">KONTAKTIEREN SIE UNS!</nuxt-link>
+          <nuxt-link to="contactform" class="bg-primary hover:bg-secondary text-white font-semibold px-4 py-2 rounded-full inline-block">Kontakt Aufnahme!</nuxt-link>
         </div>
       </div>
       <div class="md:w-1/2">
@@ -84,23 +84,26 @@
     </div>
   </section>
 
+  <!-- Zertifizierungen Abschnitt -->
   <section id="certifications" class="bg-white dark:bg-gray-900 py-16">
-  <div class="container mx-auto px-4">
-    <h2 class="text-center text-3xl font-bold text-gray-900 dark:text-white mb-6">Meine Zertifizierungen</h2>
-    <div class="flex flex-wrap justify-center items-center gap-6">
-      <img src="/cert1.png" alt="Zertifikat 1" class="h-32 w-auto">
-      <img src="/cert2.png" alt="Zertifikat 2" class="h-32 w-auto">
-      <img src="/cert3.png" alt="Zertifikat 3" class="h-32 w-auto">
-      <img src="/cert4.png" alt="Zertifikat 4" class="h-32 w-auto">
-      <img src="/cert5.png" alt="Zertifikat 5" class="h-32 w-auto">
+    <div class="container mx-auto px-4">
+      <h2 class="text-center text-3xl font-bold text-gray-900 dark:text-white mb-6">Meine Zertifizierungen</h2>
+      <div class="flex flex-wrap justify-center items-center gap-6">
+        <img src="/cert1.png" alt="Zertifikat 1" class="h-32 w-auto">
+        <img src="/cert2.png" alt="Zertifikat 2" class="h-32 w-auto">
+        <img src="/cert3.png" alt="Zertifikat 3" class="h-32 w-auto">
+        <img src="/cert4.png" alt="Zertifikat 4" class="h-32 w-auto">
+        <img src="/cert5.png" alt="Zertifikat 5" class="h-32 w-auto">
+      </div>
     </div>
-  </div>
-</section>
+  </section>
 
-
-
-
-
+  <!-- Kontakt Knopf Abschnitt -->
+  <section class="bg-white dark:bg-gray-900 py-8">
+    <div class="text-center">
+      <nuxt-link to="contactform" class="bg-primary hover:bg-secondary text-white font-semibold px-6 py-3 rounded-full inline-block">Kontaktieren Sie mich!</nuxt-link>
+    </div>
+  </section>
 </template>
 
 <script>
@@ -152,8 +155,4 @@ export default {
     height: 300px;
   }
 }
-
-
 </style>
-
-
