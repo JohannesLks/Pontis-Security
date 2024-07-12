@@ -19,6 +19,10 @@
 
     <h2 class="text-2xl font-semibold text-primary dark:text-indigo-300 mb-2">Kontakt</h2>
     <p class="bg-gray-100 dark:bg-gray-800 border-l-4 border-primary dark:border-indigo-300 p-3 mb-4">
+      <strong>Umsatzsteuer-ID gem. § 27a UStG:</strong> DE 364785177<br />
+    </p>
+    <h2 class="text-2xl font-semibold text-primary dark:text-indigo-300 mb-2">Kontakt</h2>
+    <p class="bg-gray-100 dark:bg-gray-800 border-l-4 border-primary dark:border-indigo-300 p-3 mb-4">
       <strong>Telefon:</strong> +49 174 2719685<br />
       <strong>E-Mail:</strong> web@pontis-it.com
     </p>
