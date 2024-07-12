@@ -14,7 +14,7 @@ export default async (req, res) => {
         },
         body: JSON.stringify({
           from: 'pontis@fh-kiel.com',
-          to: 'web@pontis-it.com',
+          to: 'lukasjohannesmoeller@protonmail.com',
           subject: subject,
           html: `<p>Name: ${name}</p>
                  <p>Email: ${email}</p>
