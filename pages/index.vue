@@ -5,7 +5,7 @@
         <h2 class="text-5xl font-bold mb-4 text-gray-900 dark:text-gray-100">Willkommen bei<br><span class="text-primary dark:text-indigo-300">Pontis IT-Consulting</span></h2>
         <p class="my-7 text-gray-700 dark:text-gray-300">Schön, dass Sie uns kennenlernen wollen! Pontis IT-Consulting ist mehr als nur ein Arbeitsplatz. Hier kommen kreative Köpfe zusammen, um außergewöhnliche Ideen Wirklichkeit werden zu lassen.</p>
         <div class="space-x-2">
-          <nuxt-link to="/contact" class="bg-primary hover:bg-secondary text-white font-semibold px-4 py-2 rounded-full inline-block">KONTAKTIEREN SIE UNS!</nuxt-link>
+          <nuxt-link to="contactform" class="bg-primary hover:bg-secondary text-white font-semibold px-4 py-2 rounded-full inline-block">KONTAKTIEREN SIE UNS!</nuxt-link>
         </div>
       </div>
       <div class="md:w-1/2">
