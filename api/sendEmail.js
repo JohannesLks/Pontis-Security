@@ -13,7 +13,7 @@ export default async (req, res) => {
           'Content-Type': 'application/json'
         },
         body: JSON.stringify({
-          from: 'pontis@fh-kiel.com',
+          from: 'website@pontis-it.com',
           to: 'lukasjohannesmoeller@protonmail.com',
           subject: subject,
           html: `<p>Name: ${name}</p>
