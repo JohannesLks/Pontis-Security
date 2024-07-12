@@ -34,7 +34,7 @@
   <!-- Neuer Leistungsabschnitt -->
   <section id="services" class="py-16 bg-gray-dark dark:bg-gray-800">
     <div class="container mx-auto text-center">
-      <h2 class="text-5xl font-bold mb-4 text-white">Unsere <span class="text-primary dark:text-indigo-300">Leistungen</span></h2>
+      <h2 class="text-5xl font-bold mb-4 text-white">Meine <span class="text-primary dark:text-indigo-300">Leistungen</span></h2>
       <div class="flex flex-wrap justify-center">
         <div class="w-full md:w-1/2 lg:w-1/3 p-4">
           <h3 class="text-xl font-bold text-white">Penetrationstest</h3>
