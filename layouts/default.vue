@@ -4,7 +4,7 @@
       <header class="bg-gray-900 sticky top-0 z-50">
         <div class="container mx-auto flex justify-between items-center py-4">
           <div class="flex items-center">
-            <nuxt-link to="/"><img src="@/public/Bild1-removebg-preview.png" alt="TechInnovate Solutions Logo" class="h-14 w-auto mr-4"></nuxt-link>
+            <nuxt-link to="/"><img src="@/public/white.svg" alt="Pontis IT-Consulting Logo" class="h-14 w-auto mr-4"></nuxt-link>
           </div>
           <div class="flex md:hidden z-50">
             <button id="hamburger" class="text-white focus:outline-none" @click="toggleMenu" v-show="!isMenuVisible">
@@ -17,7 +17,6 @@
             <ul class="flex justify-center space-x-4 text-white">
               <li><nuxt-link to="/" class="hover:text-secondary font-bold dark:text-white">Home</nuxt-link></li>
               <li><nuxt-link to="/contactform" class="hover:text-secondary font-bold dark:text-white">Kontakt</nuxt-link></li>
-              <li><nuxt-link to="/qualificationform" class="hover:text-secondary font-bold dark:text-white">Karriere</nuxt-link></li>
               <li><nuxt-link to="/impressum" class="hover:text-secondary font-bold dark:text-white">Impressum</nuxt-link></li>
               <li v-if="isLoggedIn"><nuxt-link to="/backend" class="hover:text-secondary font-bold dark:text-white">Backend</nuxt-link></li>
             </ul>
@@ -49,8 +48,6 @@ Software: https://cruip.com/implementing-tailwind-css-dark-mode-toggle-with-no-f
                 <span class="sr-only">Switch to light / dark version</span>
               </label>
             </div>
-            <button v-if="isLoggedIn" @click="logout" class="bg-primary hover:bg-secondary text-white font-semibold px-4 py-2 rounded-full inline-block">Logout</button>
-            <nuxt-link v-else to="/login" class="bg-primary hover:bg-secondary text-white font-semibold px-4 py-2 rounded-full inline-block">Login</nuxt-link>
           </div>
         </div>
       </header>
@@ -64,7 +61,6 @@ Software: https://cruip.com/implementing-tailwind-css-dark-mode-toggle-with-no-f
         <ul class="w-full text-center dark:text-white">
           <li class="border-b border-gray-300 dark:border-gray-600 py-4"><nuxt-link to="/" @click.native="closeMenu" class="hover:text-secondary font-bold dark:text-white">Home</nuxt-link></li>
           <li class="border-b border-gray-300 dark:border-gray-600 py-4"><nuxt-link to="/contactform" @click.native="closeMenu" class="hover:text-secondary font-bold dark:text-white">Kontakt</nuxt-link></li>
-          <li class="border-b border-gray-300 dark:border-gray-600 py-4"><nuxt-link to="/qualificationform" @click.native="closeMenu" class="hover:text-secondary font-bold dark:text-white">Karriere</nuxt-link></li>
           <li class="border-b border-gray-300 dark:border-gray-600 py-4"><nuxt-link to="/impressum" @click.native="closeMenu" class="hover:text-secondary font-bold dark:text-white">Impressum</nuxt-link></li>
           <li v-if="isLoggedIn" class="border-b border-gray-300 dark:border-gray-600 py-4"><nuxt-link to="/backend" @click.native="closeMenu" class="hover:text-secondary font-bold dark:text-white">Backend</nuxt-link></li>
         </ul>
@@ -95,16 +91,14 @@ Software: https://cruip.com/implementing-tailwind-css-dark-mode-toggle-with-no-f
               <span class="sr-only">Switch to light / dark version</span>
             </label>
           </div>
-          <button v-if="isLoggedIn" @click="logout" @click.native="closeMenu" class="bg-primary hover:bg-secondary text-white font-semibold px-4 py-2 rounded-full flex items-center justify-center min-w-[110px]">Logout</button>
-          <nuxt-link v-else to="/login" @click.native="closeMenu" class="bg-primary hover:bg-secondary text-white font-semibold px-4 py-2 rounded-full flex items-center justify-center min-w-[110px]">Login</nuxt-link>
         </div>
       </nav>
       <div class="content-wrapper bg-gray-100 dark:bg-gray-900 text-black dark:text-white transition-colors duration-300">
         <slot />
       </div>
       <footer class="py-10 bg-gray-100 dark:bg-gray-900 text-black dark:text-white">
-        <img src="@/public/Bild1-removebg-preview.png" alt="Logo" class="h-14 w-auto mx-auto mb-5">
-        <span class="block text-center text-gray-600 dark:text-gray-400 font-semibold">© 2024 TechInnovate Solutions. Alle Rechte vorbehalten.</span>
+        <img src="@/public/white.svg" alt="Logo" class="h-14 w-auto mx-auto mb-5">
+        <span class="block text-center text-gray-600 dark:text-gray-400 font-semibold">© 2024 Pontis IT-Consulting. Alle Rechte vorbehalten.</span>
         <ul class="flex justify-center mt-10 space-x-8">
           <li><a href="https://instagram.com" target="_blank"><img src="@/public/instagram.png" alt="Instagram" class="h-10 w-10 hover:drop-shadow-md"></a></li>
           <li><a href="https://youtube.com" target="_blank"><img src="@/public/youtube.png" alt="YouTube" class="h-10 w-10"></a></li>
@@ -118,7 +112,6 @@ Software: https://cruip.com/implementing-tailwind-css-dark-mode-toggle-with-no-f
 </template>
 
 <script>
-import { supabase } from '@/supabase'
 
 export default {
   data() {

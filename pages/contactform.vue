@@ -3,18 +3,18 @@
       <div class="container px-5 py-24 mx-auto flex sm:flex-nowrap flex-wrap">
         <div class="lg:w-2/3 md:w-1/2 bg-blue-300 dark:bg-gray-800 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative">
           <iframe width="100%" height="100%" class="absolute inset-0" frameborder="0" title="map" marginheight="0" marginwidth="0" scrolling="no"
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4652.754908136425!2d10.17543319361391!3d54.332636429808424!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47b257b630a3b029%3A0x9ce68f427e43e95c!2sSokratespl.%201%2C%2024149%20Kiel!5e0!3m2!1sde!2sde!4v1717624855907!5m2!1sde!2sde"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4655.938204499386!2d10.118531491470291!3d54.304497031917165!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47b256927af9e459%3A0x4e18b92351fd9fa5!2sDithmarscher%20Str.%2010%2C%2024113%20Kiel!5e0!3m2!1sde!2sde!4v1719218919000!5m2!1sde!2sde"
             style="filter: grayscale(0) contrast(1.2) opacity(0.6);"></iframe>
           <div class="bg-white dark:bg-gray-700 relative flex flex-wrap py-6 rounded shadow-md">
             <div class="lg:w-1/2 px-6">
               <h2 class="font-bold text-gray-dark dark:text-gray-100">ADRESSE</h2>
-              <p class="mt-1 text-gray-700 dark:text-gray-300">Sokratesplatz 1<br>24149 Kiel</p>
+              <p class="mt-1 text-gray-700 dark:text-gray-300">Dithmarscher Straße 10<br>24113 Kiel</p>
             </div>
             <div class="lg:w-1/2 px-6 mt-4 lg:mt-0">
               <h2 class="font-bold text-gray-dark dark:text-gray-100">EMAIL</h2>
-              <a href="mailto:techinnovatesolutions@fh-kiel.com" class="text-primary dark:text-indigo-300 leading-relaxed">techinnovatesolutions@fh-kiel.com</a>
+              <a href="mailto:techinnovatesolutions@fh-kiel.com" class="text-primary dark:text-indigo-300 leading-relaxed">web@pontis-it.com</a>
               <h2 class="font-bold text-gray-dark dark:text-gray-100 mt-4">PHONE</h2>
-              <a href="tel:+4917212345678" class="leading-relaxed text-gray-700 dark:text-gray-300">+49 172 12345678</a>
+              <a href="tel:+4917212345678" class="leading-relaxed text-gray-700 dark:text-gray-300">+49 174 2719685</a>
             </div>
           </div>
         </div>
@@ -54,7 +54,8 @@
   </template>
   
   <script>
-  import { supabase } from '@/supabase';
+  import axios from 'axios';
+  
   export default {
     name: "ContactForm",
     data() {
@@ -89,15 +90,13 @@
         this.formHasErrors = false;
   
         try {
-          const { error } = await supabase
-            .from('kontakt')
-            .insert([this.form]);
+          const response = await axios.post('https://your-backend.com/send-email', this.form);
   
-          if (error) {
-            console.error("Error details:", error);
-            this.formErrorMessage = error.message;
-          } else {
+          if (response.data.success) {
+            this.formSuccessMessage = "Ihre Nachricht wurde erfolgreich gesendet!";
             this.$router.push('/thank-you');
+          } else {
+            this.formErrorMessage = "Es gab ein Problem beim Senden Ihrer Nachricht.";
           }
         } catch (error) {
           console.error("Fehler beim Senden des Formulars:", error);
@@ -107,4 +106,5 @@
     }
   };
   </script>
+  
   
