@@ -1,4 +1,4 @@
-// server/api/sendEmail.js
+// api/sendEmail.js
 import fetch from 'node-fetch';
 
 export default async (req, res) => {
@@ -21,23 +21,23 @@ export default async (req, res) => {
           })
         });
 
-        return response;
+        const data = await response.json();
+
+        if (!response.ok) {
+          throw new Error(data.message || 'Failed to send email');
+        }
+
+        return data;
       };
 
       // Send email to site owner
-      const ownerResponse = await sendEmail(
+      await sendEmail(
         'lukasjohannesmoeller@protonmail.com',
         subject,
         `<p>Name: ${name}</p>
          <p>Email: ${email}</p>
          <p>Message: ${message}</p>`
       );
-
-      const ownerData = await ownerResponse.json();
-
-      if (!ownerResponse.ok) {
-        return res.status(ownerResponse.status).json({ success: false, message: ownerData.message });
-      }
 
       // Send confirmation email to the sender
       const confirmationSubject = 'Bestätigung Ihrer Anfrage';
@@ -51,16 +51,12 @@ export default async (req, res) => {
         <p>Mit freundlichen Grüßen,<br>Pontis IT-Consulting</p>
       `;
 
-      const confirmationResponse = await sendEmail(email, confirmationSubject, confirmationMessage);
-      const confirmationData = await confirmationResponse.json();
-
-      if (!confirmationResponse.ok) {
-        return res.status(confirmationResponse.status).json({ success: false, message: confirmationData.message });
-      }
+      await sendEmail(email, confirmationSubject, confirmationMessage);
 
       res.status(200).json({ success: true, message: "Emails sent successfully" });
 
     } catch (error) {
+      console.error('Error sending emails:', error);
       res.status(500).json({ success: false, message: "Internal Server Error" });
     }
   } else {
