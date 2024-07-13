@@ -52,8 +52,8 @@ export default async (req, res) => {
         <div style="color:#000000;font:14px Courier New;">Pontis IT-Consulting</div>
         <table cellpadding="0" style="max-width:570px;border-collapse:collapse;font-size:14px">
           <td style="margin:0.1px;padding:0 0 10px">
-            <a href="http://pontis-it.com" target="_blank">
-              <img src="http://pontis-it.com/assets/img/pontis_black.png" width="132" valign="top" alt="photo-logo">
+            <a href="https://pontis-it.com" target="_blank">
+              <img src="https://pontis-it.com/public/pontis_black.png" width="132" valign="top" alt="photo-logo">
             </a>
           </td>
           <tr>
@@ -100,7 +100,7 @@ export default async (req, res) => {
           <tr>
             <td style="margin:0.1px;padding:1px 0 0;font:13.1px/16.5px Courier New;">
               <span style="color:#000000;font:bold 13px Courier New;">Internet</span>&nbsp;
-              <a href="http://pontis-it.com/" style="text-decoration:none;color:#000000;font:13px Courier New;" target="_blank">pontis-it.com</a>&nbsp;
+              <a href="https://pontis-it.com/" style="text-decoration:none;color:#000000;font:13px Courier New;" target="_blank">pontis-it.com</a>&nbsp;
             </td>
           </tr>
           <tr>
@@ -109,7 +109,7 @@ export default async (req, res) => {
                 <tr>
                   <td style="margin:0.1px;padding:0 5px 0 0">
                     <a href="https://www.linkedin.com/in/lukas-johannes-moeller/" target="_blank" valign="top">
-                      <img src="http://pontis-it.com/assets/img/linkedin.png" width="28" style="display:block" valign="top" alt="linkedin">
+                      <img src="https://pontis-it.com/public/linkedin.png" width="28" style="display:block" valign="top" alt="linkedin">
                     </a>
                   </td>
                 </tr>
@@ -118,7 +118,7 @@ export default async (req, res) => {
           </tr>
           <tr>
             <td style="margin:0.1px;padding:10px 0 0;line-height:1px;font-size:1px">
-              <img src="http://pontis-it.com/assets/img/banner.png" width="336" alt="banner">
+              <img src="https://pontis-it.com/public/banner.png" width="336" alt="banner">
             </td>
           </tr>
           <tr>
