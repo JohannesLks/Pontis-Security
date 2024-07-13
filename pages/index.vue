@@ -8,7 +8,7 @@
           <nuxt-link to="contactform" class="bg-primary hover:bg-secondary text-white font-semibold px-4 py-2 rounded-full inline-block">Kontakt Aufnahme!</nuxt-link>
         </div>
       </div>
-      <div class="md:w-1/2">
+      <div class="md:w-1/2 flex justify-center">
         <swiper
           :effect="'cube'"
           :grabCursor="true"
@@ -134,9 +134,7 @@ export default {
 .business {
   width: 400px;
   height: 400px;
-  left: 50%;
-  top: 50%;
-  margin-left: -200px;
+  margin: 0 auto;
 }
 
 .swiper-slide {
@@ -150,9 +148,15 @@ export default {
 }
 
 @media screen and (max-width: 890px) {
+  .container {
+    flex-direction: column;
+    align-items: center;
+  }
+
   .business {
     width: 300px;
     height: 300px;
+    margin-top: 20px;
   }
 }
 </style>
