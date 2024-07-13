@@ -124,7 +124,7 @@ export default async (req, res) => {
           <tr>
             <td style="margin:0.1px;padding:10px 0 0 0;font:13px/16.5px Courier New;color:#000000">
               <div>Sitz: Kiel</div>
-              <div>USt. ID-NR.:</div>
+              <div>USt. ID-NR.: DE364785177</div>
               <div>Fianzamt: Finanzamt Kiel</div>
               <div>Rechtsform: Einzelunternehmen</div>
               <div>Gerichtsstand: Amtsgericht Kiel</div>
