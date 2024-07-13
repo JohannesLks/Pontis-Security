@@ -53,7 +53,7 @@ export default async (req, res) => {
         <table cellpadding="0" style="max-width:570px;border-collapse:collapse;font-size:14px">
           <td style="margin:0.1px;padding:0 0 10px">
             <a href="https://pontis-it.com" target="_blank">
-              <img src="https://pontis-it.com/public/pontis_black.png" width="132" valign="top" alt="photo-logo">
+              <img src="https://pontis-it.com/images/pontis_black.png" width="132" valign="top" alt="photo-logo">
             </a>
           </td>
           <tr>
@@ -109,7 +109,7 @@ export default async (req, res) => {
                 <tr>
                   <td style="margin:0.1px;padding:0 5px 0 0">
                     <a href="https://www.linkedin.com/in/lukas-johannes-moeller/" target="_blank" valign="top">
-                      <img src="https://pontis-it.com/public/linkedin.png" width="28" style="display:block" valign="top" alt="linkedin">
+                      <img src="https://pontis-it.com/images/linkedin.png" width="28" style="display:block" valign="top" alt="linkedin">
                     </a>
                   </td>
                 </tr>
@@ -118,7 +118,7 @@ export default async (req, res) => {
           </tr>
           <tr>
             <td style="margin:0.1px;padding:10px 0 0;line-height:1px;font-size:1px">
-              <img src="https://pontis-it.com/public/banner.png" width="336" alt="banner">
+              <img src="https://pontis-it.com/images/banner.png" width="336" alt="banner">
             </td>
           </tr>
           <tr>
