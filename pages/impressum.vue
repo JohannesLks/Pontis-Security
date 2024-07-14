@@ -12,15 +12,10 @@
         <strong>Registergericht:</strong> Kiel
       </p>
       <p class="bg-gray-100 dark:bg-gray-800 border-l-4 border-primary dark:border-indigo-300 p-3 mb-4">
-        <strong>Vertreten durch:</strong><br />
-        Lukas Johannes Möller
+        <strong>Umsatzsteuer-ID gem. § 27a UStG:</strong><br />
+        DE 364785177
       </p>
     </div>
-
-    <h2 class="text-2xl font-semibold text-primary dark:text-indigo-300 mb-2">Kontakt</h2>
-    <p class="bg-gray-100 dark:bg-gray-800 border-l-4 border-primary dark:border-indigo-300 p-3 mb-4">
-      <strong>Umsatzsteuer-ID gem. § 27a UStG:</strong> DE 364785177<br />
-    </p>
     <h2 class="text-2xl font-semibold text-primary dark:text-indigo-300 mb-2">Kontakt</h2>
     <p class="bg-gray-100 dark:bg-gray-800 border-l-4 border-primary dark:border-indigo-300 p-3 mb-4">
       <strong>Telefon:</strong> +49 174 2719685<br />
