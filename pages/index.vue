@@ -94,6 +94,7 @@
         <img src="/cert3.png" alt="Zertifikat 3" class="h-32 w-auto">
         <img src="/cert4.png" alt="Zertifikat 4" class="h-32 w-auto">
         <img src="/cert5.png" alt="Zertifikat 5" class="h-32 w-auto">
+        <img src="/cert6.png" alt="Zertifikat 5" class="h-32 w-auto">
       </div>
     </div>
   </section>
