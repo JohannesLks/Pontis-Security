@@ -38,23 +38,23 @@
       <div class="flex flex-wrap justify-center">
         <div class="w-full md:w-1/2 lg:w-1/3 p-4">
           <h3 class="text-xl font-bold text-white">Penetrationstest</h3>
-          <p class="text-white">Umfassende Sicherheitsüberprüfungen und Risikoanalysen Ihrer IT-Systeme.</p>
+          <p class="text-white">Umfassende Sicherheitsüberprüfungen und Risikoanalysen Ihrer IT-Systeme</p>
         </div>
         <div class="w-full md:w-1/2 lg:w-1/3 p-4">
           <h3 class="text-xl font-bold text-white">IT-Beratung</h3>
-          <p class="text-white">Strategische Beratung, um Ihre IT-Landschaft zu optimieren und zukunftssicher zu gestalten.</p>
+          <p class="text-white">Strategische Beratung, um Ihre IT-Landschaft zu optimieren und zukunftssicher zu gestalten</p>
         </div>
         <div class="w-full md:w-1/2 lg:w-1/3 p-4">
           <h3 class="text-xl font-bold text-white">Debugging von Webanwendungen</h3>
-          <p class="text-white">Identifikation und Behebung von Fehlern in Ihren Webanwendungen zur Steigerung der Leistungsfähigkeit.</p>
+          <p class="text-white">Identifikation und Behebung von Fehlern in Ihren Webanwendungen zur Steigerung der Leistungsfähigkeit</p>
         </div>
         <div class="w-full md:w-1/2 lg:w-1/3 p-4">
           <h3 class="text-xl font-bold text-white">Programmierung</h3>
-          <p class="text-white">Entwicklung maßgeschneiderter Softwarelösungen, die Ihre geschäftlichen Anforderungen erfüllen.</p>
+          <p class="text-white">Entwicklung maßgeschneiderter Softwarelösungen, die Ihre geschäftlichen Anforderungen erfüllen</p>
         </div>
         <div class="w-full md:w-1/2 lg:w-1/3 p-4">
           <h3 class="text-xl font-bold text-white">IT-Sicherheitsberatung</h3>
-          <p class="text-white">Beratung zu besten Sicherheitspraktiken und Implementierung effektiver Sicherheitsstrategien.</p>
+          <p class="text-white">Beratung zu besten Sicherheitspraktiken und Implementierung effektiver Sicherheitsstrategien</p>
         </div>
       </div>
     </div>
@@ -63,7 +63,7 @@
   <!-- Über mich Abschnitt -->
   <section class="bg-white dark:bg-gray-900 py-16">
     <div class="text-center mb-12 lg:mb-20 px-4">
-      <h2 class="text-4xl lg:text-5xl font-bold mb-4 text-gray-900 dark:text-gray-100">über <span class="text-primary dark:text-indigo-300">mich</span></h2>
+      <h2 class="text-4xl lg:text-5xl font-bold mb-4 text-gray-900 dark:text-gray-100">Über <span class="text-primary dark:text-indigo-300">mich</span></h2>
       <p class="my-7 text-gray-700 dark:text-gray-300 max-w-4xl mx-auto">
         Willkommen bei Pontis IT Consulting! Ich bin Lukas Johannes Möller, Gründer und Geschäftsführer. Seit meiner Jugend fasziniert mich die Cybersicherheit, und diese Leidenschaft treibt mich an, ständig neues Wissen zu erwerben und meine Fähigkeiten zu verfeinern. Als begeisterter Teilnehmer an Capture the Flag (CTF) Wettbewerben liebe ich die Herausforderung, komplexe Sicherheitsprobleme zu lösen.
         <br /><br />
