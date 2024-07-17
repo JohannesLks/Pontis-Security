@@ -23,14 +23,14 @@
     </p>
 
     <h2 class="text-2xl font-semibold text-primary dark:text-indigo-300 mb-2">EU-Streitschlichtung</h2>
-    <p class="bg-gray-100 dark:bg-gray-800 border-l-4 border-primary dark:border-indigo-300 p-3 mb-4">
+    <p class="bg-gray-100 dark:bg-gray-800 border-l-4 border-primary dark:border-indigo-300 p-3 mb-4 text-justify ">
       Die Europäische Kommission stellt eine Plattform zur Online-Streitbeilegung (OS) bereit: 
       <a href="https://ec.europa.eu/consumers/odr/" target="_blank" rel="noopener noreferrer" class="text-primary dark:text-indigo-300 hover:underline">https://ec.europa.eu/consumers/odr/</a>. 
-      Unsere E-Mail-Adresse finden Sie oben im Impressum.
+      <br />Unsere E-Mail-Adresse finden Sie oben im Impressum.
     </p>
 
     <h2 class="text-2xl font-semibold text-primary dark:text-indigo-300 mb-2">Verbraucher<wbr>streitbeilegung/<br>Universal<wbr>schlichtungsstelle</h2>
-    <p class="bg-gray-100 dark:bg-gray-800 border-l-4 border-primary dark:border-indigo-300 p-3 mb-4">
+    <p class="bg-gray-100 dark:bg-gray-800 border-l-4 border-primary dark:border-indigo-300 p-3 mb-4 text-justify ">
       Wir sind nicht bereit oder verpflichtet, an Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen.
     </p>
   </div>

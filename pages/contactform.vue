@@ -20,7 +20,7 @@
       </div>
       <div class="lg:w-1/3 md:w-1/2 bg-white dark:bg-gray-900 flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0">
         <h2 class="text-primary dark:text-indigo-300 text-lg mb-2 font-medium">In Kontakt treten</h2>
-        <p class="mb-5 text-gray-txt dark:text-gray-300">Haben Sie Fragen, Anregungen oder möchten Sie einfach nur Hallo sagen? Wir würden uns freuen, von Ihnen zu hören! Schicken Sie uns eine Nachricht und wir werden so schnell wie möglich auf Sie zurückkommen.</p>
+        <p class="mb-5 text-gray-txt dark:text-gray-300">Haben Sie Fragen, Anregungen oder möchten Sie einfach nur Hallo sagen? Wir würden uns freuen, von Ihnen zu hören. Schicken Sie uns eine Nachricht und wir werden so schnell wie möglich auf Sie zurückkommen.</p>
         <div class="relative w-full bg-gray-300 dark:bg-gray-700 rounded-full h-4 mb-4">
           <div :style="{ width: progress + '%' }" class="bg-primary dark:bg-indigo-500 h-full rounded-full transition-all duration-300">
             <span :style="{ color: progress > 0 ? 'white' : '#004cfd' }" class="absolute left-2 top-1/2 transform -translate-y-1/2 font-bold">{{ progress.toFixed(0) }}%</span>
