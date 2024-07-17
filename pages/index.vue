@@ -3,9 +3,9 @@
     <div class="container mx-auto flex flex-col md:flex-row items-center justify-between">
       <div class="md:w-1/2 text-center md:text-left mb-8 md:mb-0">
         <h2 class="text-5xl font-bold mb-4 text-gray-900 dark:text-gray-100">Willkommen bei<br><span class="text-primary dark:text-indigo-300">Pontis IT-Consulting</span></h2>
-        <p class="my-7 text-gray-700 dark:text-gray-300">Willkommen bei Ihrem IT-Experten! Ich biete umfassende Dienstleistungen im Bereich Pentesting, Administration und IT-Beratung – professionell, zuverlässig und individuell.</p>
+        <p class="my-7 text-gray-700 dark:text-gray-300">Willkommen bei Ihrem IT-Experten. Ich biete umfassende Dienstleistungen im Bereich Pentesting, Administration und IT-Beratung – professionell, zuverlässig und individuell.</p>
         <div class="space-x-2">
-          <nuxt-link to="contactform" class="bg-primary hover:bg-secondary text-white font-semibold px-4 py-2 rounded-full inline-block">Kontaktaufnahme!</nuxt-link>
+          <nuxt-link to="contactform" class="bg-primary hover:bg-secondary text-white font-semibold px-4 py-2 rounded-full inline-block">Kontaktaufnahme</nuxt-link>
         </div>
       </div>
       <div class="md:w-1/2 flex justify-center">
@@ -65,9 +65,9 @@
     <div class="text-center mb-12 lg:mb-20 px-4">
       <h2 class="text-4xl lg:text-5xl font-bold mb-4 text-gray-900 dark:text-gray-100">Über <span class="text-primary dark:text-indigo-300">mich</span></h2>
       <p class="my-7 text-gray-700 dark:text-gray-300 max-w-4xl mx-auto">
-        Willkommen bei Pontis IT Consulting! Ich bin Lukas Johannes Möller, Gründer und Geschäftsführer. Seit meiner Jugend fasziniert mich die Cybersicherheit, und diese Leidenschaft treibt mich an, ständig neues Wissen zu erwerben und meine Fähigkeiten zu verfeinern. Als begeisterter Teilnehmer an Capture the Flag (CTF) Wettbewerben liebe ich die Herausforderung, komplexe Sicherheitsprobleme zu lösen.
+        Willkommen bei Pontis IT Consulting!.Ich bin Lukas Johannes Möller, Gründer und Geschäftsführer. Seit meiner Jugend fasziniert mich die Cybersicherheit und diese Leidenschaft treibt mich an, ständig neues Wissen zu erwerben und meine Fähigkeiten zu verfeinern. Als begeisterter Teilnehmer an Capture the Flag (CTF) Wettbewerben liebe ich die Herausforderung, komplexe Sicherheitsprobleme zu lösen.
         <br /><br />
-        Mit zahlreichen Zertifizierungen in IT-Sicherheit und praktischer Erfahrung setze ich mein Wissen ein, um Ihre digitale Welt sicherer zu machen. Darüber hinaus bin ich ein Allrounder und genieße es, sowohl in den Bereichen Programmierung als auch Administration tätig zu sein. Bei Pontis IT Consulting biete ich umfassende Beratungsdienste an, die speziell auf Ihre Bedürfnisse zugeschnitten sind. Lassen Sie uns gemeinsam an einer sicheren digitalen Zukunft arbeiten.
+        Mit zahlreichen Zertifizierungen in IT-Sicherheit und praktischer Erfahrung setze ich mein Wissen ein, um Ihre digitale Welt sicherer zu machen. Darüber hinaus bin ich ein Allrounder und genieße es, sowohl in den Bereichen Programmierung als auch Administration tätig zu sein. Bei Pontis IT Consulting biete ich umfassende Beratungsdienste an, die speziell auf Ihre Bedürfnisse zugeschnitten sind. Lassen Sie uns gemeinsam an einer sicheren digitalen Zukunft arbeiten!
       </p>
     </div>
     <div class="relative w-full px-5 py-12 mx-auto md:px-12 lg:px-24 max-w-7xl">
