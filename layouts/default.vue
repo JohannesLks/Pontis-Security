@@ -70,7 +70,7 @@
         <slot />
       </div>
       <footer class="py-10 bg-gray-100 dark:bg-gray-900 text-black dark:text-white">
-        <nuxt-link to="/">
+        <nuxt-link to="/" @click.native="scrollToTop">
           <img v-if="!isDarkMode" src="@/public/black.svg" alt="Logo" class="h-14 w-auto mx-auto mb-5">
           <img v-else src="@/public/white.svg" alt="Logo-White" class="h-14 w-auto mx-auto mb-5">
         </nuxt-link>
@@ -108,6 +108,9 @@ export default {
     }
   },
   methods: {
+    scrollToTop() {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    },
     toggleMenu() {
       this.isMenuVisible = !this.isMenuVisible;
     },
