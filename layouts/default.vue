@@ -73,12 +73,12 @@
         <img src="@/public/white.svg" alt="Logo" class="h-14 w-auto mx-auto mb-5">
         <span class="block text-center text-gray-600 dark:text-gray-400 font-semibold">© 2024 Pontis IT-Consulting. Alle Rechte vorbehalten.</span>
         <ul class="flex justify-center mt-10 space-x-8">
+          <li><a href="https://www.linkedin.com/in/lukas-johannes-moeller/" target="_blank"><img src="@/public/linkedin.png" alt="LinkedIn" class="h-10 w-10"></a></li>
+          <li><a href="https://github.com/JohannesLks/" target="_blank"><img src="@/public/github.png" alt="GitHub" class="h-10 w-10"></a></li>
           <li><a href="https://instagram.com" target="_blank"><img src="@/public/instagram.png" alt="Instagram" class="h-10 w-10 hover:drop-shadow-md"></a></li>
           <li><a href="https://www.youtube.com/@Pontis-IT" target="_blank"><img src="@/public/youtube.png" alt="YouTube" class="h-10 w-10"></a></li>
           <li><a href="https://facebook.com" target="_blank"><img src="@/public/facebook.png" alt="Facebook" class="h-10 w-10"></a></li>
           <li><a href="https://x.com/PontisSecurity" target="_blank"><img src="@/public/x.png" alt="Twitter" class="h-10 w-10"></a></li>
-          <li><a href="https://www.linkedin.com/in/lukas-johannes-moeller/" target="_blank"><img src="@/public/linkedin.png" alt="LinkedIn" class="h-10 w-10"></a></li>
-          <li><a href="https://github.com/JohannesLks/" target="_blank"><img src="@/public/github.png" alt="GitHub" class="h-10 w-10"></a></li>
         </ul>
       </footer>
     </div>
