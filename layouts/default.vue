@@ -78,6 +78,7 @@
           <li><a href="https://facebook.com" target="_blank"><img src="@/public/facebook.png" alt="Facebook" class="h-10 w-10"></a></li>
           <li><a href="https://x.com/PontisSecurity" target="_blank"><img src="@/public/x.png" alt="Twitter" class="h-10 w-10"></a></li>
           <li><a href="https://www.linkedin.com/in/lukas-johannes-moeller/" target="_blank"><img src="@/public/linkedin.png" alt="LinkedIn" class="h-10 w-10"></a></li>
+          <li><a href="https://github.com/JohannesLks/" target="_blank"><img src="@/public/github.png" alt="GitHub" class="h-10 w-10"></a></li>
         </ul>
       </footer>
     </div>
