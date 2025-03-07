@@ -70,7 +70,8 @@
         <slot />
       </div>
       <footer class="py-10 bg-gray-100 dark:bg-gray-900 text-black dark:text-white">
-        <img src="@/public/white.svg" alt="Logo" class="h-14 w-auto mx-auto mb-5">
+        <img v-if="!isDarkMode" src="@/public/black.svg" alt="Logo" class="h-14 w-auto mx-auto mb-5">
+        <img v-else src="@/public/white.svg" alt="Logo-White" class="h-14 w-auto mx-auto mb-5">
         <span class="block text-center text-gray-600 dark:text-gray-400 font-semibold">© 2024 Pontis IT-Consulting. Alle Rechte vorbehalten.</span>
         <ul class="flex justify-center mt-10 space-x-8">
           <li><a href="https://www.linkedin.com/in/lukas-johannes-moeller/" target="_blank"><img src="@/public/linkedin.png" alt="LinkedIn" class="h-10 w-10"></a></li>
