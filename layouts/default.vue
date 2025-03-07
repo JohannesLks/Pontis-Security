@@ -74,7 +74,8 @@
         <span class="block text-center text-gray-600 dark:text-gray-400 font-semibold">© 2024 Pontis IT-Consulting. Alle Rechte vorbehalten.</span>
         <ul class="flex justify-center mt-10 space-x-8">
           <li><a href="https://www.linkedin.com/in/lukas-johannes-moeller/" target="_blank"><img src="@/public/linkedin.png" alt="LinkedIn" class="h-10 w-10"></a></li>
-          <li><a href="https://github.com/JohannesLks/" target="_blank"><img src="@/public/github.png" alt="GitHub" class="h-10 w-10"></a></li>
+          <img v-if="!isDarkMode" src="@/public/github.png" alt="GitHub" class="h-10 w-10">
+          <img v-else src="@/public/github-white.png" alt="GitHub Dark" class="h-10 w-10">
           <li><a href="https://instagram.com" target="_blank"><img src="@/public/instagram.png" alt="Instagram" class="h-10 w-10 hover:drop-shadow-md"></a></li>
           <li><a href="https://www.youtube.com/@Pontis-IT" target="_blank"><img src="@/public/youtube.png" alt="YouTube" class="h-10 w-10"></a></li>
           <li><a href="https://facebook.com" target="_blank"><img src="@/public/facebook.png" alt="Facebook" class="h-10 w-10"></a></li>
