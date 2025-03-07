@@ -1,6 +1,5 @@
-# 🎓 24S | Webprojekt – Einstieg in die Webentwicklung
-
-Das ist mein Projekt zum erstellen eines Job-Funnel. 
+# 🎓Homepage
+Meine Homepage.
 Es basiert auf Nuxt mit vue und Tailwind.
 Es wird Supabase und Resend genutzt.
 
