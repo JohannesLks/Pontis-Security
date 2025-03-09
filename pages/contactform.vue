@@ -22,7 +22,7 @@
         <h2 class="text-primary dark:text-red-pontis text-lg mb-2 font-medium">In Kontakt treten</h2>
         <p class="mb-5 text-gray-txt dark:text-gray-300">Haben Sie Fragen, Anregungen oder möchten Sie einfach nur Hallo sagen? Wir würden uns freuen, von Ihnen zu hören. Schicken Sie uns eine Nachricht und wir werden so schnell wie möglich auf Sie zurückkommen.</p>
         <div class="relative w-full bg-gray-300 dark:bg-gray-700 rounded-full h-4 mb-4">
-          <div :style="{ width: progress + '%' }" class="bg-primary dark:bg-indigo-500 h-full rounded-full transition-all duration-300">
+          <div :style="{ width: progress + '%' }" class="bg-primary dark:bg-pontis-red h-full rounded-full transition-all duration-300">
             <span :style="{ color: progress > 0 ? 'white' : '#B32222' }" class="absolute left-2 top-1/2 transform -translate-y-1/2 font-bold">{{ progress.toFixed(0) }}%</span>
           </div>
         </div>
