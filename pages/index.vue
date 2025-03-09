@@ -2,7 +2,7 @@
   <section id="home" class="bg-white dark:bg-gray-900 py-16">
     <div class="container mx-auto flex flex-col md:flex-row items-center justify-between">
       <div class="md:w-1/2 text-center md:text-left mb-8 md:mb-0">
-        <h2 class="text-5xl font-bold mb-4 text-gray-900 dark:text-gray-100">Willkommen bei<br><span class="text-primary dark:text-indigo-300">Pontis Security</span></h2>
+        <h2 class="text-5xl font-bold mb-4 text-gray-900 dark:text-gray-100">Willkommen bei<br><span class="text-primary dark:text-red-pontis">Pontis Security</span></h2>
         <p class="my-7 text-gray-700 dark:text-gray-300">Willkommen bei Ihrem IT-Security Experten. Ich biete umfassende Dienstleistungen im Bereich Pentesting, Administration und IT-Beratung – professionell, zuverlässig und individuell.</p>
         <div class="space-x-2">
           <nuxt-link to="contactform" class="bg-primary hover:bg-secondary text-white font-semibold px-4 py-2 rounded-full inline-block">Kontaktaufnahme</nuxt-link>
@@ -34,7 +34,7 @@
   <!-- Neuer Leistungsabschnitt -->
   <section id="services" class="py-16 bg-gray-dark dark:bg-gray-800">
     <div class="container mx-auto text-center">
-      <h2 class="text-5xl font-bold mb-4 text-white">Meine <span class="text-primary dark:text-indigo-300">Leistungen</span></h2>
+      <h2 class="text-5xl font-bold mb-4 text-white">Meine <span class="text-primary dark:text-red-pontis">Leistungen</span></h2>
       <div class="flex flex-wrap justify-center">
         <div class="w-full md:w-1/2 lg:w-1/3 p-4">
           <h3 class="text-xl font-bold text-white">Penetrationstest & Ethical Hacking</h3>
@@ -55,7 +55,7 @@
   <!-- Über mich Abschnitt -->
   <section class="bg-white dark:bg-gray-900 py-16">
     <div class="text-center mb-12 lg:mb-20 px-4">
-      <h2 class="text-4xl lg:text-5xl font-bold mb-4 text-gray-900 dark:text-gray-100">Über <span class="text-primary dark:text-indigo-300">mich</span></h2>
+      <h2 class="text-4xl lg:text-5xl font-bold mb-4 text-gray-900 dark:text-gray-100">Über <span class="text-primary dark:text-red-pontis">mich</span></h2>
       <p class="my-7 text-gray-700 dark:text-gray-300 max-w-4xl mx-auto text-justify">
         Willkommen bei Pontis Security. Ich bin Lukas Johannes Möller, Gründer und Geschäftsführer, und mein Fokus liegt auf Cyber Defense, Penetrationstests und Ethical Hacking. Bereits seit meiner Jugend fasziniert mich die Welt der Cybersecurity – eine Leidenschaft, die mich dazu antreibt, stets neue Sicherheitslücken zu identifizieren und innovative Schutzstrategien zu entwickeln.
         <br /><br />
@@ -67,7 +67,7 @@
         <div></div>
         <div class="p-6 bg-gray-100 dark:bg-gray-800 rounded-lg shadow-lg">
           <img class="object-cover object-center w-full mb-8 rounded-xl" src="/johannes.jpeg" alt="Mitarbeiter Johannes">
-          <h2 class="mb-2 text-xs font-semibold tracking-widest text-primary dark:text-indigo-300 uppercase">Lukas Johannes Möller</h2>
+          <h2 class="mb-2 text-xs font-semibold tracking-widest text-primary dark:text-red-pontis uppercase">Lukas Johannes Möller</h2>
           <h1 class="mb-4 text-2xl lg:text-3xl font-semibold leading-none tracking-tighter text-gray-900 dark:text-gray-100">Gründer</h1>
           <p class="text-base font-medium leading-relaxed text-gray-700 dark:text-gray-300">"Für Cybersecurity schlägt mein Herz. Meine Mission ist es, Ihr Unternehmen sicherer zu machen."</p>
         </div>
