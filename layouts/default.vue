@@ -117,6 +117,7 @@ export default {
         event.preventDefault();
         this.scrollToTop();
       }
+    },
     toggleMenu() {
       this.isMenuVisible = !this.isMenuVisible;
     },
