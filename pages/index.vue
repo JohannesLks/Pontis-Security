@@ -2,8 +2,8 @@
   <section id="home" class="bg-white dark:bg-gray-900 py-16">
     <div class="container mx-auto flex flex-col md:flex-row items-center justify-between">
       <div class="md:w-1/2 text-center md:text-left mb-8 md:mb-0">
-        <h2 class="text-5xl font-bold mb-4 text-gray-900 dark:text-gray-100">Willkommen bei<br><span class="text-primary dark:text-indigo-300">Pontis IT-Consulting</span></h2>
-        <p class="my-7 text-gray-700 dark:text-gray-300">Willkommen bei Ihrem IT-Experten. Ich biete umfassende Dienstleistungen im Bereich Pentesting, Administration und IT-Beratung – professionell, zuverlässig und individuell.</p>
+        <h2 class="text-5xl font-bold mb-4 text-gray-900 dark:text-gray-100">Willkommen bei<br><span class="text-primary dark:text-indigo-300">Pontis Security</span></h2>
+        <p class="my-7 text-gray-700 dark:text-gray-300">Willkommen bei Ihrem IT-Security Experten. Ich biete umfassende Dienstleistungen im Bereich Pentesting, Administration und IT-Beratung – professionell, zuverlässig und individuell.</p>
         <div class="space-x-2">
           <nuxt-link to="contactform" class="bg-primary hover:bg-secondary text-white font-semibold px-4 py-2 rounded-full inline-block">Kontaktaufnahme</nuxt-link>
         </div>
@@ -37,20 +37,12 @@
       <h2 class="text-5xl font-bold mb-4 text-white">Meine <span class="text-primary dark:text-indigo-300">Leistungen</span></h2>
       <div class="flex flex-wrap justify-center">
         <div class="w-full md:w-1/2 lg:w-1/3 p-4">
-          <h3 class="text-xl font-bold text-white">Penetrationstest</h3>
-          <p class="text-white">Umfassende Sicherheitsüberprüfungen und Risikoanalysen Ihrer IT-Systeme</p>
+          <h3 class="text-xl font-bold text-white">Penetrationstest & Ethical Hacking</h3>
+          <p class="text-white">Durch gezielte Penetrationstests und ethisches Hacken decken wir Sicherheitslücken auf und beheben Schwachstellen, bevor Angreifer sie ausnutzen.</p>
         </div>
         <div class="w-full md:w-1/2 lg:w-1/3 p-4">
-          <h3 class="text-xl font-bold text-white">IT-Beratung</h3>
-          <p class="text-white">Strategische Beratung, um Ihre IT-Landschaft zu optimieren und zukunftssicher zu gestalten</p>
-        </div>
-        <div class="w-full md:w-1/2 lg:w-1/3 p-4">
-          <h3 class="text-xl font-bold text-white">Debugging von Webanwendungen</h3>
-          <p class="text-white">Identifikation und Behebung von Fehlern in Ihren Webanwendungen zur Steigerung der Leistungsfähigkeit</p>
-        </div>
-        <div class="w-full md:w-1/2 lg:w-1/3 p-4">
-          <h3 class="text-xl font-bold text-white">Programmierung</h3>
-          <p class="text-white">Entwicklung maßgeschneiderter Softwarelösungen, die Ihre geschäftlichen Anforderungen erfüllen</p>
+          <h3 class="text-xl font-bold text-white">Cyber Defense</h3>
+          <p class="text-white">Proaktive Sicherheitsstrategien und kontinuierliche Überwachung schützen Ihre IT-Infrastruktur vor modernen Cyberangriffen.</p>
         </div>
         <div class="w-full md:w-1/2 lg:w-1/3 p-4">
           <h3 class="text-xl font-bold text-white">IT-Sicherheitsberatung</h3>
@@ -65,7 +57,7 @@
     <div class="text-center mb-12 lg:mb-20 px-4">
       <h2 class="text-4xl lg:text-5xl font-bold mb-4 text-gray-900 dark:text-gray-100">Über <span class="text-primary dark:text-indigo-300">mich</span></h2>
       <p class="my-7 text-gray-700 dark:text-gray-300 max-w-4xl mx-auto text-justify">
-        Willkommen bei Pontis IT Consulting. Ich bin Lukas Johannes Möller, Gründer und Geschäftsführer. Seit meiner Jugend fasziniert mich die Cybersicherheit und diese Leidenschaft treibt mich an, ständig neues Wissen zu erwerben und meine Fähigkeiten zu verfeinern. Als begeisterter Teilnehmer an Capture the Flag (CTF) Wettbewerben liebe ich die Herausforderung, komplexe Sicherheitsprobleme zu lösen.
+        Willkommen bei Pontis Security. Ich bin Lukas Johannes Möller, Gründer und Geschäftsführer, und mein Fokus liegt auf Cyber Defense, Penetrationstests und Ethical Hacking. Bereits seit meiner Jugend fasziniert mich die Welt der Cybersecurity – eine Leidenschaft, die mich dazu antreibt, stets neue Sicherheitslücken zu identifizieren und innovative Schutzstrategien zu entwickeln.
         <br /><br />
         Mit zahlreichen Zertifizierungen in IT-Sicherheit und praktischer Erfahrung setze ich mein Wissen ein, um Ihre digitale Welt sicherer zu machen. Darüber hinaus bin ich ein Allrounder und genieße es, sowohl in den Bereichen Programmierung als auch Administration tätig zu sein. Bei Pontis IT Consulting biete ich umfassende Beratungsdienste an, die speziell auf Ihre Bedürfnisse zugeschnitten sind. Lassen Sie uns gemeinsam an einer sicheren digitalen Zukunft arbeiten!
       </p>
