@@ -43,7 +43,7 @@
             <label for="message" class="leading-7 text-sm text-gray-dark dark:text-gray-300">Ihre Nachricht</label>
             <textarea id="message" v-model="form.message" required class="w-full bg-white dark:bg-gray-800 rounded border border-gray-txt dark:border-gray-600 h-32 text-base outline-none text-gray-txt dark:text-gray-100 py-1 px-3 resize-none transition-colors duration-200 ease-in-out"></textarea>
           </div>
-          <button type="submit" class="text-white bg-primary dark:bg-red-pontis border-0 py-3 px-6 focus:outline-none hover:bg-secondary dark:hover:bg-red-pontis-hover rounded text-lg w-full transition-colors duration-200 ease-in-out">Senden</button>
+          <button type="submit" class="text-white bg-primary dark:bg-red-pontis border-0 py-3 px-6 focus:outline-none hover:bg-red-pontis-hover dark:hover:bg-red-pontis-hover rounded text-lg w-full transition-colors duration-200 ease-in-out">Senden</button>
         </form>
         <p v-if="formHasErrors" class="text-red mt-4">Bitte füllen Sie alle erforderlichen Felder aus.</p>
         <p v-if="formSuccessMessage" class="text-green mt-4">{{ formSuccessMessage }}</p>
