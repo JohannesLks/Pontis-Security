@@ -108,14 +108,11 @@ export default {
     }
   },
   methods: {
-    scrollToTop() {
-      window.scrollTo({ top: 0, behavior: 'smooth' });
-    },
     handleLogoClick(event) {
-      // Prüfe, ob wir bereits auf der Startseite sind
+      // Wenn wir bereits auf der Startseite sind, scrollen wir nach oben
       if (this.$route.path === '/') {
         event.preventDefault();
-        this.scrollToTop();
+        window.scrollTo({ top: 0, behavior: 'smooth' });
       }
     },
     toggleMenu() {
