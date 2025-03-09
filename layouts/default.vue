@@ -19,7 +19,7 @@
               <li><nuxt-link to="/contactform" class="hover:text-primary font-bold dark:text-white dark:hover:text-primary">Kontakt</nuxt-link></li>
               <li><nuxt-link to="/impressum" class="hover:text-primary font-bold dark:text-white dark:hover:text-primary">Impressum</nuxt-link></li>
               <li>
-                <a href="https://www.pontis-it.com" target="_blank" rel="noopener" class="text-indigo-500 hover:text-indigo-700 font-bold dark:text-indigo-500 dark:hover:text-red-indigo-700">Pontis IT-Consulting</a>
+                <a href="https://www.pontis-it.com" target="_blank" rel="noopener" class="text-indigo-500 hover:text-indigo-700 font-bold dark:text-indigo-500 dark:hover:text-indigo-700">Pontis IT-Consulting</a>
               </li>
             </ul>
           </nav>
