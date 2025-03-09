@@ -46,6 +46,7 @@ module.exports = {
         'indigo-800': '#434190',
         'green-400': '#68d391',
         'green-500': '#48bb78',
+        'red-pontis': '#B32222',
       },
       fontFamily: {
         manrope: ['Manrope', 'sans-serif'],

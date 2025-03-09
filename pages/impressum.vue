@@ -38,16 +38,16 @@
 
 <style scoped>
 .text-primary {
-  color: #004cfd;
+  color: #B32222;
 }
 .bg-primary {
-  background-color: #004cfd;
+  background-color: #B32222;
 }
 .border-primary {
-  border-color: #004cfd;
+  border-color: #B32222;
 }
 .hover\:bg-secondary:hover {
-  background-color: #003bb5;
+  background-color: #B32222;
 }
 .dark .text-indigo-300 {
   color: #9fa9ff;

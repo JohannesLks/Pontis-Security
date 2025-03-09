@@ -12,18 +12,18 @@
           </div>
           <div class="lg:w-1/2 px-6 mt-4 lg:mt-0">
             <h2 class="font-bold text-gray-dark dark:text-gray-100">EMAIL</h2>
-            <a href="mailto:web@pontis-it.com" class="text-primary dark:text-indigo-300 leading-relaxed">web@pontis-it.com</a>
+            <a href="mailto:web@pontis-it.com" class="text-primary dark:text-red-pontis leading-relaxed">web@pontis-it.com</a>
             <h2 class="font-bold text-gray-dark dark:text-gray-100 mt-4">PHONE</h2>
             <a href="tel:+4917212345678" class="leading-relaxed text-gray-700 dark:text-gray-300">+49 174 2719685</a>
           </div>
         </div>
       </div>
       <div class="lg:w-1/3 md:w-1/2 bg-white dark:bg-gray-900 flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0">
-        <h2 class="text-primary dark:text-indigo-300 text-lg mb-2 font-medium">In Kontakt treten</h2>
+        <h2 class="text-primary dark:text-red-pontis text-lg mb-2 font-medium">In Kontakt treten</h2>
         <p class="mb-5 text-gray-txt dark:text-gray-300">Haben Sie Fragen, Anregungen oder möchten Sie einfach nur Hallo sagen? Wir würden uns freuen, von Ihnen zu hören. Schicken Sie uns eine Nachricht und wir werden so schnell wie möglich auf Sie zurückkommen.</p>
         <div class="relative w-full bg-gray-300 dark:bg-gray-700 rounded-full h-4 mb-4">
           <div :style="{ width: progress + '%' }" class="bg-primary dark:bg-indigo-500 h-full rounded-full transition-all duration-300">
-            <span :style="{ color: progress > 0 ? 'white' : '#004cfd' }" class="absolute left-2 top-1/2 transform -translate-y-1/2 font-bold">{{ progress.toFixed(0) }}%</span>
+            <span :style="{ color: progress > 0 ? 'white' : '#B32222' }" class="absolute left-2 top-1/2 transform -translate-y-1/2 font-bold">{{ progress.toFixed(0) }}%</span>
           </div>
         </div>
         <form @submit.prevent="onSubmit" class="space-y-4">
