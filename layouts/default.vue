@@ -4,7 +4,7 @@
       <header class="bg-gray-900 sticky top-0 z-50">
         <div class="container mx-auto flex justify-between items-center py-4">
           <div class="flex items-center">
-            <nuxt-link to="/"><img src="@/public/red.svg" alt="Pontis IT-Consulting Logo" class="h-14 w-auto mr-4"></nuxt-link>
+            <nuxt-link to="/" @click="handleLogoClick"><img src="@/public/red.svg" alt="Pontis IT-Consulting Logo" class="h-14 w-auto mr-4"></nuxt-link>
           </div>
           <div class="flex md:hidden z-50">
             <button id="hamburger" class="text-white focus:outline-none" @click="toggleMenu" v-show="!isMenuVisible">
@@ -18,6 +18,9 @@
               <li><nuxt-link to="/" class="hover:text-primary font-bold dark:text-white dark:hover:text-primary">Home</nuxt-link></li>
               <li><nuxt-link to="/contactform" class="hover:text-primary font-bold dark:text-white dark:hover:text-primary">Kontakt</nuxt-link></li>
               <li><nuxt-link to="/impressum" class="hover:text-primary font-bold dark:text-white dark:hover:text-primary">Impressum</nuxt-link></li>
+              <li>
+                <a href="https://www.pontis-it.com" target="_blank" rel="noopener" class="text-indigo-500 hover:text-indigo-700 font-bold dark:text-indigo-500 dark:hover:text-red-indigo-700">Pontis Security</a>
+              </li>
             </ul>
           </nav>
           <div class="hidden lg:flex items-center space-x-4">
@@ -48,6 +51,7 @@
           <li class="border-b border-gray-300 dark:border-gray-600 py-4"><nuxt-link to="/" @click.native="closeMenu" class="hover:text-secondary font-bold dark:text-white">Home</nuxt-link></li>
           <li class="border-b border-gray-300 dark:border-gray-600 py-4"><nuxt-link to="/contactform" @click.native="closeMenu" class="hover:text-secondary font-bold dark:text-white">Kontakt</nuxt-link></li>
           <li class="border-b border-gray-300 dark:border-gray-600 py-4"><nuxt-link to="/impressum" @click.native="closeMenu" class="hover:text-secondary font-bold dark:text-white">Impressum</nuxt-link></li>
+          <li class="border-b border-gray-300 dark:border-gray-600 py-4"><a href="https://www.pontis-it.com" target="_blank" rel="noopener" @click="closeMenu" class="text-indigo-500 hover:text-indigo-700 font-bold dark:text-indigo-500 dark:hover:text-indigo-700">Pontis Security</a></li>
         </ul>
         <div class="flex flex-col mt-6 space-y-2 items-center dark:text-white">
           <div class="flex flex-col justify-center ml-3">
