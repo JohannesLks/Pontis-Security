@@ -3,7 +3,7 @@
     <div class="container mx-auto flex flex-col md:flex-row items-center justify-between">
       <div class="md:w-1/2 text-center md:text-left mb-8 md:mb-0">
         <h2 class="text-5xl font-bold mb-4 text-gray-900 dark:text-gray-100">Willkommen bei<br><span class="text-primary dark:text-red-pontis">Pontis Security</span></h2>
-        <p class="my-7 text-gray-700 dark:text-gray-300">Willkommen bei Ihrem IT-Security Experten. Ich biete umfassende Dienstleistungen im Bereich Pentesting, Administration und IT-Beratung – professionell, zuverlässig und individuell.</p>
+        <p class="my-7 text-gray-700 dark:text-gray-300">Als Experte in moderner Cyber Defense führe ich gezielte Penetrationstests und Ethical Hacking durch, um Schwachstellen in Ihrer IT-Infrastruktur aufzudecken und proaktiv zu beheben.</p>
         <div class="space-x-2">
           <nuxt-link to="contactform" class="bg-primary hover:bg-secondary text-white font-semibold px-4 py-2 rounded-full inline-block">Kontaktaufnahme</nuxt-link>
         </div>
