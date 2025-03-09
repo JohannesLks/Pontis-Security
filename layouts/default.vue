@@ -15,9 +15,9 @@
           </div>
           <nav class="hidden md:flex md:flex-grow justify-center">
             <ul class="flex justify-center space-x-4 text-white">
-              <li><nuxt-link to="/" class="hover:text-secondary font-bold dark:text-white">Home</nuxt-link></li>
-              <li><nuxt-link to="/contactform" class="hover:text-secondary font-bold dark:text-white">Kontakt</nuxt-link></li>
-              <li><nuxt-link to="/impressum" class="hover:text-secondary font-bold dark:text-white">Impressum</nuxt-link></li>
+              <li><nuxt-link to="/" class="hover:text-primary font-bold dark:text-white dark:hover:text-primary">Home</nuxt-link></li>
+              <li><nuxt-link to="/contactform" class="hover:text-primary font-bold dark:text-white dark:hover:text-primary">Kontakt</nuxt-link></li>
+              <li><nuxt-link to="/impressum" class="hover:text-primary font-bold dark:text-white dark:hover:text-primary">Impressum</nuxt-link></li>
             </ul>
           </nav>
           <div class="hidden lg:flex items-center space-x-4">
@@ -70,7 +70,7 @@
         <slot />
       </div>
       <footer class="py-10 bg-gray-100 dark:bg-gray-900 text-black dark:text-white">
-        <nuxt-link to="/" @click.native="handleLogoClick($event)">
+        <nuxt-link to="/" @click="handleLogoClick">
           <img v-if="!isDarkMode" src="@/public/red.svg" alt="Logo" class="h-14 w-auto mx-auto mb-5">
           <img v-else src="@/public/red.svg" alt="Logo-White" class="h-14 w-auto mx-auto mb-5">
         </nuxt-link>
