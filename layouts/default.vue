@@ -95,11 +95,9 @@
       </footer>
     </div>
   </div>
-  <Analytics />
 </template>
 
 <script>
-import { Analytics } from '@vercel/analytics/nuxt'
 export default {
   data() {
     return {
