@@ -4,7 +4,7 @@
 
     <div class="mb-6">
       <p class="bg-gray-100 dark:bg-gray-800 border-l-4 border-primary dark:border-indigo-300 p-3 mb-4">
-        <strong>Pontis IT-Consulting Inh. Johannes Möller</strong><br />
+        <strong>Pontis Security Inh. Johannes Möller</strong><br />
         Kieler Straße 3<br />
         24119 Kronshagen
       </p>
