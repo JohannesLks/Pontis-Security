@@ -39,7 +39,7 @@
             <a
               href="tel:+4917212345678"
               class="leading-relaxed text-gray-700 dark:text-gray-300"
-            >+1 (678) 837-6107‬</a
+            >+1 (678) 837-6107</a
             >
           </div>
         </div>
