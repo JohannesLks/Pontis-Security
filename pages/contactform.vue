@@ -19,8 +19,8 @@
           <div class="lg:w-1/2 px-6">
             <h2 class="font-bold text-gray-dark dark:text-gray-100">ADRESSE</h2>
             <p class="mt-1 text-gray-700 dark:text-gray-300">
-              Dithmarscher Straße 10<br>
-              24113 Kiel
+              Kieler Straße 3<br>
+              24119 Kronshagen
             </p>
           </div>
           <div class="lg:w-1/2 px-6 mt-4 lg:mt-0">
@@ -35,6 +35,11 @@
               href="tel:+4917212345678"
               class="leading-relaxed text-gray-700 dark:text-gray-300"
               >+49 174 2719685</a
+            >
+            <a
+              href="tel:+4917212345678"
+              class="leading-relaxed text-gray-700 dark:text-gray-300"
+            >+1 (678) 837-6107‬ </a
             >
           </div>
         </div>
